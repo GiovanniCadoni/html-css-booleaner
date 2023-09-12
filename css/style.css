@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Modifichiamo lo stile del nostro header, che conterrà il logo e la nostra immagine come sfondo*/
+.testa{
+    margin: 0;
+    height: 90px;
+    background-color: lightskyblue;
+    background-image:url("../img/pattern.png");
+    background-size: contain;
+    padding-left: 5px;
+    padding-top: 28px;
+}
+
+/*Qua inseriamo le modifiche per tutta la prima parte che riguarda il titolo, i vari testi e le foto*/
+.titolo{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.data{
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.infoFoto{
+    font-size: 12px;
+}
+
+.contenuto{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.importante{
+    background-color: yellow;
+}
+
+/*Inseriamo tutte le modifiche di stile che riguardano la tabella*/
+.tabella{
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: dodgerblue;
+    color: white;
+    width: 33%;
+}
+
+tbody{
+    background-color: lightskyblue;
+}
+
+.trbianco{
+    background-color: white;
+}
+
+/*Parte finale della pagina: gli annunci*/
+.annuncio{
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pubblicita1{
+    margin-top: 10px;
+    width: 320px;
+    height: 250px;
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.pubblicita2{
+    margin-top: 10px;
+    width: 320px;
+    height: 250px;
+    background-image: url(../img/graph.jpg);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 20px;
+}
